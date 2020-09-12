@@ -1,0 +1,15 @@
+.margin{
+    margin-top: 10%;
+}
+.un-a{
+    color: inherit;
+}
+.body{
+    background-color: #f5f0f0;
+}
+.about{
+    font-family: 'Allerta Stencil';
+    background-color: white;
+    border-radius: 2px;
+    border-style: groove;
+}
