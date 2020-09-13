@@ -2,14 +2,12 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Math</title>
+        <title>Projects</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
         <link rel="icon" href="./static/logo.png" type='image/x-icon'>
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
     </head>
     <body class="body">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -19,9 +17,9 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ml-auto">
                     <a href="./index.html" class="nav-item nav-link">About</a>
-                    <a href="./projects.html" class="nav-item nav-link">Projects</a>
+                    <a href="./projects.html" class="nav-item nav-link active">Projects</a>
                     <a href="#" class="nav-item nav-link">Tutorials</a>
-                    <a href="./math.html" class="nav-item nav-link active">Math</a>
+                    <a href="./math.html" class="nav-item nav-link">Math</a>
                     <a href="./resouces.html" class="nav-item nav-link">Resouces</a>
                 </div>
             </div>
@@ -29,35 +27,33 @@
         <div class="container">
             <div class="row margin about h-100 align-items-center">
                 <div class="col-12 text-center description">
-                    <h2>Math Problems</h2>
-                    <p>This section contains some of the nicest math problems that I have seen. I have given my solutions but it's always better to try yourself first.</p>
+                    <h2>Projects</h2>
+                    <p>This section contains the list of my academic and personal projects.</p>
                     <hr class="line">
                 </div>
                 <div class="col-12">
-                  <div class="card mb-3">
-                    <div class="row no-gutters">
-                      <div class="col-md-4">
-                        <img src="./static/math/count.jpg" class="card-img" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <p class="card-text"><a class="un-a">There are \(3\) kinds of objects and we have \(2n\) of each of them. Find the number of ways of distributing these \(6n\) objects among \(2\) people when each gets \(3n\) objects.</a></p>
-                          <p class="card-text"><small class="text-muted">13/09/2020</small></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="card mb-3">
-                    <div class="row no-gutters">
-                      <div class="col-md-4">
-                        <img src="./static/math/cube.png" class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-8">
+                    <div class="card mb-3">
+                      <div class="row no-gutters">
+                        <div class="col-12">
                           <div class="card-body">
-                            <p class="card-text"><a class="un-a">Eight ants are placed at the vertices of a cube. At a particular instant , all of them started moving along one of the three edges at the same speed. Find the probablity that none of them collide.</a></p>
-                            <p class="card-text"><small class="text-muted">13/09/2020</small></p>
+                            <h5 class="card-title text-center"><b>Analysis and Simulation of Cache Replacement algorithms</b></h5>
+                            <hr class="line">
+                            <p class="card-text">This project was done as a part of course ES215 : Computer Organization and Architecture at IIT Gandhinagar.</p>
+                            <p class="card-text">
+                              Team members:<br>
+                              <ul>
+                                <li>Abhinav Meena (abhinav.meena@iitgn.ac.in)</li>
+                                <li>Priyam Tongia (priyam.tongia@iitgn.ac.in)</li>
+                              </ul>
+                            </p>
+                            <p class="card-text">When the cache is full and a miss is inquired, it must be decided which cache block to evict. In this project, we wrote the code, analysed and simulated some replacement policies on a few traces using the ChampSim simulator.
+                                The policies that we considered are : LRU, MRU, FIFO, Bimodal-Insertion , NRU , SRRIP and DRRIP.<br>
+                                We observed that any single policy cannot give optimal performance on all traces and hence methods like Set-Dueling must be employed to dynamically choose a policy during runtime.</p>
+                            <div class="butttons">
+                              <form action="https://docs.google.com/presentation/d/1jej2z9iU0CSqQAMPf-SJPFHiOK1RiHsZgbHcfrnymn4/edit?usp=sharing" target="_blank">
+                                <button type="submit" class="btn btn-outline-dark">Slides</button>
+                              </form>
+                            </div>
                           </div>
                         </div>
                       </div>
